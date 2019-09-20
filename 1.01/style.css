@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100i|Quicksand&display=swap');
+
+html {
+	background: rgb(0, 175, 240);
+	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#gameName {
+	border: 3px solid rgb(30,30,30);
+	border-radius: 10px;
+	margin: 10px;
+	font-family: 'Quicksand', sans-serif;
+	width: 95px;
+	background: rgb(100,255,150);
+	font-size: 16px;
+	size: 20px;
+}
+
+#score {
+	font-size: 25px;
+}
+
+#maxloadbar {
+	font-size: 25px;
+}
+
+#button1 {
+	font-family: 'Quicksand', sans-serif;
+	background: rgb(0,175,255);
+	text-decoration-color: rgb(30,30,30);
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px black;
+	text-shadow: 0px 0px 10px black;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#button1:hover {
+	background: rgb(100,255,150);
+}
+
+#twoclicks {
+	font-family: 'Quicksand', sans-serif;
+	background: rgb(0, 0, 0);
+	text-decoration-color: rgb(30,30,30);
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px black;
+	text-shadow: 0px 0px 10px black;
+	font-size: 15px;
+	color:white;
+	margin: 10px;
+	padding: 10px;
+}
+
+#twoclicks:hover {
+	background: rgb(255, 255, 255);
+	color:black;
+}
+
+#tclicks {
+	font-size: 25px;
+}
+
+
+
+#loadbar {
+	border: 5px solid rgb(0,50,50);
+	border-radius: 20px;
+	background-size: 90px;
+	margin:10px;
+}
+
+#clickspc {
+	font-size: 25px;
+}
