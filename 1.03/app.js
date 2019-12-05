@@ -57,6 +57,10 @@ window.onload = function () {
         bg.style = 'background: #FF5722;'
         gcheer.play();
       }
+      if (gamescore == 500) 
+      {
+        gcheer.play();
+      }
     }
   }
 
