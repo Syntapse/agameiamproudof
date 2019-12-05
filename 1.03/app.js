@@ -1,4 +1,5 @@
 window.onload = function () {
+  const ament = document.getElementById('ament')
   const gameName = document.getElementById('gameName')
   const bg = document.getElementById('bg')
   const TestText = document.getElementById("TestText");
@@ -10,7 +11,7 @@ window.onload = function () {
   const maxloadbar = document.getElementById("maxloadbar");
   const tclicks = document.getElementById("tclicks");
   let clickstotal = 0;
-  let gamescore = 0;
+  let gamescore = 123456788;
   var cpc = 1;
   var cheer = new Audio()
   var denied = new Audio()
@@ -62,6 +63,10 @@ window.onload = function () {
       if (gamescore == 500) 
       {
         gcheer.play();
+      }
+      //Achivements
+      if(gamescore == 123456789) {
+        ament.innerHTML = "Good job! You got a score of 123456789!"
       }
     }
   }
