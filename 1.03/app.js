@@ -1,4 +1,5 @@
 window.onload = function () {
+  const gameName = document.getElementById('gameName')
   const bg = document.getElementById('bg')
   const TestText = document.getElementById("TestText");
   const clickspc = document.getElementById("clickspc");
@@ -18,6 +19,7 @@ window.onload = function () {
   denied.src = 'denied.wav'
   gcheer.src = 'goalcheer.mp3'
 
+  gameName.onmouseover = function(){alert('hi')};
 
   function twoclicksclickevent() {
     if (gamescore >= 2) {
