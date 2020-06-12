@@ -12,15 +12,17 @@ window.onload = function () {
   const tclicks = document.getElementById("tclicks");
   let clickstotal = 0;
   let gamescore = 0;
-  var cpc = 1;
-  var cheer = new Audio()
-  var denied = new Audio()
-  var gcheer = new Audio()
+  let cpc = 1;
+  let cheer = new Audio()
+  let denied = new Audio()
+  let gcheer = new Audio()
   cheer.src = 'applause4.mp3'
   denied.src = 'denied.wav'
   gcheer.src = 'goalcheer.mp3'
 
-  gameName.onmouseover = function(){alert('hi')};
+  gameName.onmouseover = function () {
+    alert('hi')
+  };
 
   function twoclicksclickevent() {
     if (gamescore >= 2) {
@@ -60,12 +62,11 @@ window.onload = function () {
         bg.style = 'background: #FF5722;'
         gcheer.play();
       }
-      if (gamescore == 500) 
-      {
+      if (gamescore == 500) {
         gcheer.play();
       }
       //Achivements
-      if(gamescore == 123456789) {
+      if (gamescore == 123456789) {
         ament.innerHTML = "Good job! You got a score of 123456789!"
       }
     }

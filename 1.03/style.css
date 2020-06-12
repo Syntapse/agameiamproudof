@@ -9,11 +9,11 @@ html {
 #gameName {
 	text-transform: uppercase;
 	padding: 5px 45px;
-	border: 1px solid rgb(30,30,30);
+	border: 1px solid rgb(30, 30, 30);
 	border-radius: 10px;
 	font-family: 'Quicksand', sans-serif;
 	width: 95px;
-	background: rgb(100,255,150);
+	background: rgb(100, 255, 150);
 	font-size: 16px;
 	size: 20px;
 	box-shadow: 0px 0px black;
@@ -40,7 +40,7 @@ html {
 #button1 {
 	font-family: 'Quicksand', sans-serif;
 	background: #2196F3;
-	text-decoration-color: rgb(30,30,30);
+	text-decoration-color: rgb(30, 30, 30);
 	border-radius: 10px;
 	box-shadow: 0px 0px black;
 	text-shadow: 0px 0px 10px black;
@@ -53,28 +53,28 @@ html {
 #button1:hover {
 	background: #00BCD4;
 	box-shadow: 10px 10px black;
-	transition: all 0.6s ease; 
+	transition: all 0.6s ease;
 }
 
 #twoclicks {
 	font-family: 'Quicksand', sans-serif;
 	background: rgb(0, 0, 0);
-	text-decoration-color: rgb(30,30,30);
+	text-decoration-color: rgb(30, 30, 30);
 	border-radius: 10px;
 	box-shadow: 1em 0px white;
 	text-shadow: 0px 0px 10px black;
 	font-size: 15px;
-	color:white;
+	color: white;
 	margin: 10px;
 	padding: 10px;
-	transition: all 1.5s ease; 
+	transition: all 1.5s ease;
 }
 
 #twoclicks:hover {
 	box-shadow: 4em 0px black;
 	background: rgb(255, 255, 255);
-	color:black;
-	transition: all 0.6s ease; 
+	color: black;
+	transition: all 0.6s ease;
 }
 
 #tclicks {
@@ -86,7 +86,7 @@ html {
 #loadbar {
 	border: 2px solid #2196F3;
 	background-size: 90px;
-	margin:10px;
+	margin: 10px;
 }
 
 #clickspc {
